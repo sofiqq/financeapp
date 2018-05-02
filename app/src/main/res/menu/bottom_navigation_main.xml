@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/res_auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_costs"
+        android:enabled="true"
+        android:icon="@drawable/ic_costs"
+        android:title="Расходы"
+        app1:showAsAction="always"/>
+    <item
+        android:id="@+id/action_incomes"
+        android:enabled="true"
+        android:icon="@drawable/ic_incomes"
+        android:title="Доходы"
+        app1:showAsAction="always"/>
+    <item
+        android:id="@+id/action_report"
+        android:enabled="true"
+        android:icon="@drawable/ic_report"
+        android:title="Отчет"
+        app1:showAsAction="always"/>
+</menu>
